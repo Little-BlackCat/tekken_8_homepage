@@ -14,7 +14,7 @@ export default function BackButton({
   return (
     <Button
         variant="link"
-        className="font-normal w-full"
+        className="font-normal w-full text-white"
         size="sm"
         asChild
     >

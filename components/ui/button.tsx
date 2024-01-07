@@ -19,9 +19,10 @@ const buttonVariants = cva(
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
+        logout: "text-rose-700 hover:text-white border hover:border-none rounded-lg transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110 hover:bg-rose-900 duration-300 px-4 py-2 lg:px-8 lg:py-4 font-medium sm:text-2xl",
       },
       size: {
-        default: "h-9 px-4 py-2",
+        default: "h-9 px-4 py-8",
         sm: "h-8 rounded-md px-3 text-xs",
         lg: "h-10 rounded-md px-8",
         icon: "h-9 w-9",
