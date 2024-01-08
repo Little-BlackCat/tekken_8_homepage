@@ -6,8 +6,8 @@ import Navbar from '@/components/Navbar'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Tekken 8 Characters",
-  description: "Lists of Tekken 8 Character",
+  title: 'Tekken 8 Character',
+  description: 'Show details of Tekken 8 Characters',
 }
 
 export default function RootLayout({

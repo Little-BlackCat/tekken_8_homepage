@@ -70,7 +70,7 @@ export default function RegisterForm() {
                     <Input 
                       {...field}
                       disabled={isPending}
-                      placeholder="Black Cat"
+                      placeholder="Jin Kazama"
                     />
                   </FormControl>
                   <FormMessage />
@@ -88,7 +88,7 @@ export default function RegisterForm() {
                     <Input 
                       {...field}
                       disabled={isPending}
-                      placeholder="example@mail.com"
+                      placeholder="tekken8@mail.com"
                       type="email"
                     />
                   </FormControl>
