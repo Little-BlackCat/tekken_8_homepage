@@ -2,11 +2,11 @@ import { db } from "@/lib/db";
 
 export async function getVerificationTokenByToken( token: string ) {
   try {
-    const verificationToken = await db.verificationToken.findUnique({
+    const verificationToken = await db.verificationToken.findFirst({
       where: { token }
     })
-
     return verificationToken
+
   } catch (error) {
     console.error(error)
     return null;
