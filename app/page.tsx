@@ -12,7 +12,7 @@ const font = Poppins({
   subsets: ["latin"],
   weight: ["600"],
 });
-
+ 
 export default async function Home() {
   const tekken8Lists = await getTekken8Characters('')
 
