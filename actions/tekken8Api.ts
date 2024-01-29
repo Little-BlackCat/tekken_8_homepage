@@ -1,8 +1,16 @@
+import dotenv from "dotenv"
+dotenv.config()
 
-const TEKKEN8_API = "http://localhost:3333/"
+import { createClient } from '@supabase/supabase-js'
+const {SUPABASE_URL, SUPABASE_ANON_KEY} = process.env
+
+// Create a single supabase client for interacting with your database
+const supabase = createClient(SUPABASE_URL!, SUPABASE_ANON_KEY!)
 
 export async function getTekken8Characters(name: string) {
-    const response = await fetch(TEKKEN8_API + `characters?search=${name}`)
-    const data = await response.json()
+    const { data, error } = await supabase
+        .from('tekken_8_characters_details')
+        .select()
     return data
 }
+
