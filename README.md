@@ -2,6 +2,8 @@
 ## Project Overview
 Tekken 8 Character Details is a web application that provides comprehensive information about characters featured in the popular fighting game, Tekken 8. The application is built using Next.js for the front-end, Supabase for the database, and NextAuth for authentication.
 
+![alt text](https://github.com/Little-BlackCat/resume/blob/main/public/ports/tekken_8_page.png "tekken_8_page")
+
 ## Features
 - Character Information: Access detailed information about each Tekken 8 character, including their their physical detail, and more.
 
