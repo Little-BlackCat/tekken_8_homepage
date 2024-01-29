@@ -15,7 +15,6 @@ const font = Poppins({
  
 export default async function Home() {
   const tekken8Lists = await getTekken8Characters('')
-  console.log("List tekken 8: ", tekken8Lists)
 
   return (
     // <main className="flex h-full flex-col items-center justify-center bg-zinc-700">
