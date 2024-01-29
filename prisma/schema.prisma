@@ -31,7 +31,7 @@ model Account {
   @@unique([provider, providerAccountId])
 }
 
-export enum UserRole {
+enum UserRole {
   ADMIN
   USER
 }
