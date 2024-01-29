@@ -96,16 +96,6 @@ export default function LoginForm() {
                       type="password"
                     />
                   </FormControl>
-                  <Button
-                    size="sm"
-                    variant="link"
-                    className="text-white px-0 font-normal"
-                    asChild
-                  >
-                    <Link href="/auth/reset">
-                      Forgot password?
-                    </Link>
-                  </Button>
                   <FormMessage />
                 </FormItem>
               )}

@@ -9,7 +9,7 @@ export default async function SettingsPage() {
       <div>
         <form action={async () => {
           'use server';
-          await signOut();
+          await signOut(); 
         }}>
           <button type="submit">Sign Out</button>
         </form>
